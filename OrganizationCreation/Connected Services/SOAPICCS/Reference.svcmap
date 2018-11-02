@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="efa6062f-32d4-4d3f-b04f-ae5da881279c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://iccsmx.custhelp.com/services/soap/connect/soap?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="soap.xsd" MetadataType="Schema" ID="a6425336-66cf-4b93-8c67-63d0bd87bed2" SourceId="1" SourceUrl="https://iccsmx.custhelp.com/services/soap/connect/soap?xsd=base" />
+    <MetadataFile FileName="soap1.xsd" MetadataType="Schema" ID="ed0659b3-7dcc-433f-b2ee-8f88030938fa" SourceId="1" SourceUrl="https://iccsmx.custhelp.com/services/soap/connect/soap?xsd=faults" />
+    <MetadataFile FileName="soap2.xsd" MetadataType="Schema" ID="37957687-4b72-48b6-aa8b-754e155b445d" SourceId="1" SourceUrl="https://iccsmx.custhelp.com/services/soap/connect/soap?xsd=messagestyped" />
+    <MetadataFile FileName="RightNow.wsdl" MetadataType="Wsdl" ID="6d789ece-e562-4b28-aac0-4d0ab3d02cc3" SourceId="1" SourceUrl="https://iccsmx.custhelp.com/services/soap/connect/soap?wsdl" />
+    <MetadataFile FileName="soap3.xsd" MetadataType="Schema" ID="14e82ef9-d70c-4bff-96a4-80ba2a47e3de" SourceId="1" SourceUrl="https://iccsmx.custhelp.com/services/soap/connect/soap?xsd=objects" />
+    <MetadataFile FileName="soap4.xsd" MetadataType="Schema" ID="eae755a2-2157-420f-8af4-2b2ea76a4dcd" SourceId="1" SourceUrl="https://iccsmx.custhelp.com/services/soap/connect/soap?xsd=nullfields" />
+    <MetadataFile FileName="soap5.xsd" MetadataType="Schema" ID="cf9ea9e5-5258-450b-8313-505cdcd4825f" SourceId="1" SourceUrl="https://iccsmx.custhelp.com/services/soap/connect/soap?xsd=metadata" />
+    <MetadataFile FileName="soap6.xsd" MetadataType="Schema" ID="31d51c7e-0468-4e25-85ae-a1e6a5c7146e" SourceId="1" SourceUrl="https://iccsmx.custhelp.com/services/soap/connect/soap?xsd=generic" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
